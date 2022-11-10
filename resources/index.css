@@ -5,13 +5,14 @@
 /* 3.   HEADER*/
 /* 4.   CONTENT*/
 /* 5.   FOOTER*/
+/* 6.   MEDIA QUERIES*/
 
 
 
 /*============================================================== 1. BODY SECTION  =================================================================*/
 
 :root {
-    --clr--primary-900: rgb(117, 10, 184);
+    --clr--primary-900: #7934f7;
     --clr--primary-1000: #0000;
     --clr--primary-100: #fff;
     --ff-primary: Anton;
@@ -46,6 +47,7 @@ p {
 .logo {
 
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -60,7 +62,7 @@ p {
 	padding: 0;
 	
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
    
     gap: 2rem;
@@ -75,7 +77,7 @@ p {
     color: var(--clr--primary-100);
     text-transform: uppercase;
     text-decoration:underline;
-    font-size: 1.25rem;
+    font-size: 2rem;
 	vertical-align: middle;
 	font-weight: lighter;
 	color: #fff;
@@ -119,7 +121,7 @@ p {
 
 .header-section h1 {
 
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: Arial;
     text-transform: uppercase;
 }
@@ -232,13 +234,18 @@ line-height: 5;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(240, 231, 231, .2);
+    
     gap: 2rem;
 }
 
 .new-arrivals li {
     display: inline;
     
+}
+
+.opacity {
+
+    background-color: rgba(240, 231, 231, .2);
 }
 
 .new-arrivals a {
@@ -504,5 +511,74 @@ color: #151515;
 text-decoration: underline;
 font-weight: 500;
 font-size: 0.70rem;
+
+}
+
+
+/*============================================================= 6. Media Queries ================================================================================*/
+
+
+@media (min-width: 390px) and (max-width: 768px) {
+
+
+    .container {
+
+        width: auto;
+    }
+
+
+    .header-section h1 {
+        font-size: 1.50rem;
+    }
+
+    .shop-links a {
+        font-size: 1rem;
+    }
+
+    .footer-nav a {
+        font-size: 1.20rem;
+    }
+
+    .footer-nav-2 a {
+
+        font-size: 0.75rem;
+    }
+
+    .red-tab-member a {
+        font-size: 1.20rem;
+       
+    }
+
+ .app {
+    font-size: 1rem;
+    
+ }
+
+    .signup a {
+        font-size: 1rem;
+    }
+
+   .all-seasons,
+   .slim-jeans,
+   .skinny-jeans,
+    h1 {
+
+    font-size: 1.50rem;
+   }
+
+   .new-arrivals a {
+    font-size: 0.75rem;
+   }
+
+   .btn {
+    font-size: 1rem;
+   }
+
+  .first-pic,
+  .second-pic {
+
+    height: 356.5px;
+    width: 214px;
+  }
 
 }

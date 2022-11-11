@@ -205,7 +205,7 @@ p {
 color: var(--clr--primary-10000);
 font-family: Arial, Helvetica, sans-serif;
 font-size: 1.25rem;
-line-height: 5;
+line-height: 1;
 
 }
 
@@ -215,8 +215,8 @@ line-height: 5;
 #shop-new-items {
 
     background-image: url('../images/sergey-shmidt-koy6FlCCy5s-unsplash.jpg');
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
     
     background-position:top;
@@ -231,9 +231,7 @@ line-height: 5;
 	margin: 0;
 	padding: 0;
 	line-height: 7.5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     
     gap: 2rem;
 }
@@ -254,11 +252,11 @@ line-height: 5;
     text-transform: uppercase;
     text-decoration:underline;
     font-size: 2rem;
-	vertical-align: middle;
+	
 	font-weight: lighter;
 	color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-around;
+    
     align-items: center;
     
 
@@ -518,7 +516,7 @@ font-size: 0.70rem;
 /*============================================================= 6. Media Queries ================================================================================*/
 
 
-@media (min-width: 390px) and (max-width: 768px) {
+@media (min-width: 370px) and (max-width: 768px) {
 
 
     .container {

@@ -593,15 +593,15 @@ font-size: 0.70rem;
   .first-pic,
   .second-pic {
 
-    height: 237.66px;
-    width: 142px;
+    height: 356.5px;
+    width: 214px;
   }
 
 
   .font-margin-p {
     font-size: 1rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .appbtn {

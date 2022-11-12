@@ -146,10 +146,23 @@ p {
     
 }
 
+.skinny-jeans p {
+    color: black;
+    display: inline-block;
+    margin: 1.5rem 0.75rem;
+}
+
+.slim-jeans p {
+    color: black;
+    display: inline-block;
+    margin: 1.5rem 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .italic-light {
 
     font-style: italic;
-    font-weight: 400;
+    
 }
 
 .btn {
@@ -163,7 +176,7 @@ p {
     text-transform: uppercase;
     cursor: pointer;
     font-weight: bold;
-    margin-top: 2rem;
+    
 }
 
 .first-pic {
@@ -204,9 +217,9 @@ p {
 
 color: var(--clr--primary-10000);
 font-family: Arial, Helvetica, sans-serif;
-font-size: 1.25rem;
-line-height: 1;
 
+
+margin: 1.5rem 0.75rem;
 }
 
 
@@ -445,10 +458,16 @@ font-size: 1.25rem;
 
 }
 
-.app-download ul {
 
-    align-items: center;
-    justify-content: center;
+.app-download p {
+
+    margin: 0.5rem 0.5rem;
+}
+
+.app ul {
+
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -469,7 +488,7 @@ display:block;
 
 }
 
-.app-download a {
+.downloadapp .app a {
 
     color: var(--clr--primary-100);
     text-transform: uppercase;
@@ -481,12 +500,22 @@ display:block;
     text-align: center;
     font-weight: 600;
     
+    
 }
 
 .app-download p {
 
     color:#504e4e;
     font-size: 0.70rem;
+}
+
+.downloadapp {
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -543,7 +572,7 @@ font-size: 0.70rem;
     }
 
     .red-tab-member a {
-        font-size: 1.20rem;
+        font-size: 1.10rem;
        
     }
 
@@ -565,7 +594,7 @@ font-size: 0.70rem;
    }
 
    .new-arrivals a {
-    font-size: 0.75rem;
+    font-size: 1rem;
    }
 
    .btn {
@@ -577,6 +606,20 @@ font-size: 0.70rem;
 
     height: 356.5px;
     width: 214px;
+  }
+
+  /*.get-cozy p {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }*/
+
+  .appbtn {
+    
+    display:inline-flex;
+    height: 43.34px;
+    width: 129.34px;
+    
   }
 
 }

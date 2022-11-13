@@ -96,8 +96,6 @@ p {
 
 
 
-
-
 /*====================================================================== 3. HEADER SECTION ==============================================================*/
 
 
@@ -131,7 +129,11 @@ p {
 
 /*========================================================================== 4. CONTENT  ========================================================================*/
 
-
+.all-seasons p {
+    color: var(--clr--primary-10000);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
 
 .all-seasons,
 .skinny-jeans,
@@ -144,16 +146,18 @@ p {
     
 }
 
-.font-margin-p {
-    font-family: Arial, Helvetica, sans-serif;
+.skinny-jeans p {
     color: black;
     display: inline-block;
     margin: 1.5rem 0.75rem;
-    font-size: 1.2rem;
-    
 }
 
-
+.slim-jeans p {
+    color: black;
+    display: inline-block;
+    margin: 1.5rem 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .italic-light {
 
@@ -209,7 +213,14 @@ p {
 	
 }
 
+.get-cozy p {
 
+color: var(--clr--primary-10000);
+font-family: Arial, Helvetica, sans-serif;
+
+
+margin: 1.5rem 0.75rem;
+}
 
 
 
@@ -597,11 +608,11 @@ font-size: 0.70rem;
     width: 214px;
   }
 
-
-  .font-margin-p {
+  /*.get-cozy p {
     font-size: 1rem;
-    
-  }
+    margin-left: 10px;
+    margin-right: 10px;
+  }*/
 
   .appbtn {
     
